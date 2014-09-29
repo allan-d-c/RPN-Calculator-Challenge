@@ -27,13 +27,14 @@ so that the input "3 abc = abc 2 *" should yield 6.
 Results
 -------
 
-The code in this repo already is unfair to compare to a candidate's output because I already know the scope of 
+The code in this repo already is unfair to compare to a candidate's submission because I already know the scope of 
 the problem (but have not coded any particular solution to it). Also I am not being interviewed, so I'm not under
 any real pressure here. 
 
 As a result, I got most of the code running in about 90 minutes. It took an additional 30 minutes beyond that to 
-get variables into the mix. Note that the Preconditions.java class was already written by me prior to the start
-of the exercise. I would likely have used more verbose asserts in its place.
+get variables requirement into the mix. Note that the Preconditions.java class was already written by me prior to 
+the start of the exercise (it came from another repository of mine). If I had not started with that, I would likely
+have used more verbose asserts in its place.
 
 When you look at the code, remember that all design and coding decisions were done in the 90 minutes. I have not
 gone back and refactored or made anything better (beyond the additional 30 minutes). I did take some time 
