@@ -29,6 +29,8 @@ public class StackableFactory
 			}
 			catch(NumberFormatException e)
 			{
+				// Critique: I know, don't use exceptions for control flow...
+
 				if (!variables.containsKey(token))
 					variables.put(token, new Variable(token));
 
