@@ -16,6 +16,7 @@ public abstract class Stackable
 
 	protected void throwUnlessAtLeastN(int required)
 	{
+		// Critique: this precondition should be in the method above 
 		Preconditions.isNotNull(myStack);
 		
 		if (myStack.size() < required)
