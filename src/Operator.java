@@ -1,6 +1,7 @@
 
 public abstract class Operator extends Stackable
 {
+	// Critique: better name is popMe()
 	protected void throwUnlessImOnTopThenPop()
 	{
 		throwUnlessAtLeastN(1);
